@@ -1,0 +1,66 @@
+te mando los json para crear y modificar
+
+primero debes crear un medidor para poder crear usuario, empresas
+
+luego puedes crar usuarios y empresas ya que registraste un medidor
+
+por ultimo ya podras crear blogs para usuarios y empresas 
+
+te mando los json para que no te revuelvas tanto en los metodos post
+
+luego modificare esto tu tranquilo
+
+json para crear blogs
+
+{
+  "urlFoto": "string",
+  "uso_Agua": 0,
+  "ubicacion": "string",
+  "opinion": "string",
+  "id_usuario": 0,
+  "id_Medidor_fk": 0
+  
+}
+
+json para crear blog en empresas
+
+{
+  "urlFoto_E": "string",
+  "uso_Agua_E": 0,
+  "ubicacion_E": "string",
+  "opinion_E": "string",
+  "id_empresa": 0,
+  "id_Medidor_fk_E": 0
+  
+}
+
+json para crear empresas
+
+{
+  "rfc": 0,
+  "nombre_E": "string",
+  "contasenia_E": "string",
+  "ubicacion_E": "string",
+  "fecha_Regristro": "2022-02-11T23:47:08.797Z",
+  "id_Medidor_E": 0,
+  "correo_E": "string"
+}
+
+json para crear medidores
+
+{
+  "id_Medidor": 0,
+  "marca": "string",
+  "proveedor": "string"
+}
+
+json para crear usuarios
+
+{
+  "nombre": "string",
+  "contrasenia": "string",
+  "domicilio": "string",
+  "nacimiento": "2022-02-11T23:48:56.969Z",
+  "id_Medidor": 0,
+  "correo": "string"
+}
